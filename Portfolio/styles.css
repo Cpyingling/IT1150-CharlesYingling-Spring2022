@@ -6,7 +6,8 @@ body {
 
 header {
     background:#002171 url("sunset.jpg") no-repeat right;
-    line-height: "400%";
+    background-size: cover;
+    line-height: 400%;
     text-indent: 1em;
     color: #FFFFFF;
 }

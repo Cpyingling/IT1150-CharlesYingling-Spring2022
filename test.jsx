@@ -16,8 +16,9 @@ class App extends Component {
       const responseB = res.data;
       this.setState((oldState) => ({...oldState, responseB: res.data}));
     });
-
   }
+
+  /* MISSING } SHOULD GO HERE */
 
   render() {
     return (
