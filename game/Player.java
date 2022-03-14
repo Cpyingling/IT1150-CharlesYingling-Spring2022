@@ -30,11 +30,11 @@ public class Player extends Entity {
   
     public void addXP() {
       userXP = userXP + 5;
-      while (userXP >= requiredXP) {
+      //while (userXP >= requiredXP) {
         userLevel++; 
       System.out.println("You are now level: " + userLevel++);
-      break;  
-      }
+     // break;  
+      //}
     }
   
     public void displayXP() {
