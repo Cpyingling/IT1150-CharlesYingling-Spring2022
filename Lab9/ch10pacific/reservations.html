@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacific Trails Resort :: Reservations</title>
+  <link rel="stylesheet" type="text/css" href="pacific.css" />
+</head>
+<div id = "wrapper">
+<header>
+  <a href="reservations.html"><h1>Pacific Trails Resort</h1></a><br>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li> 
+    <li><a href="yurts.html">Yurts</a></li> 
+    <li><a href="activities.html">Activities</a></li>
+    <li><a href="reservations.html">Reservations</a></li>
+  </ul>
+</nav>
+  <main>
+    <h2>Reservations at Pacific Trails </h2>
+    <h3>Contact Us Today!</h3>
+    <p>Required fields are marked with an asterisk *.</p>
+    <form method="post" 
+    action="https://webdevbasics.net/scripts/pacific.php">
+        <label for="MyFName">* First Name:</label> <input type="text" name="MyFName" id="MyFName" required>
+        <label for="MyLName">* Last Name:</label> <input type="text" name="MyLName" id="MyLName" required>
+        <label for="MyEmail">* E-mail:</label> <input type="email" name="MyEmail" id="MyEmail" required>
+        <label for="MyPhone">Phone Number:</label> <input type="tel" name="MyPhone" id="MyPhone" maxlength="12">
+        <label for="MyADate">Arrival Date:</label> <input type="date" name="MyADate" id="MyADate">
+        <label for="MyNights">Nights:</label> <input type="number" name="MyNights" id="MyNights" min="1" max="14">
+        <label for="MyComments">*Comments:</label> <textarea name="MyComments" id="MyComments" rows="2" cols="30" required></textarea>
+        <input type="submit" value="Submit">
+    </form>
+      <div id ="contact">
+        <span a class ="resort">Pacific Trails Resort</span><br>
+        12010 Pacific Trails Road<br>
+        Zephy, CA 95555<br><br>
+        888-555-5555<br><br><br>
+      </div>
+    </main>
+<footer>
+  Copyright &copy; 2022 Pacific Trails Resort<br>
+  <a href="mailto:s01283708@acad.tri-c.edu">Charles Yingling</a>
+</footer>
+</div>
+</html>
