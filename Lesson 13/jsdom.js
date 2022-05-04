@@ -150,7 +150,7 @@ function Homework()
     assign ClassA as its style
     Add it as a child to the the div with id="parent"
     */
-    var link = document.getElementById("link1");//this is the Element
+    var link = document.getElementById("link");
         link.href="http://www.tri-c.edu";
         link.style.add("classA");
         link.innerText = "Link"
